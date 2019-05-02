@@ -1,0 +1,8 @@
+<h1>Add a new artist to @Model.GetName()</h1>
+
+<form action='/artists/@Model.Id/items' method='post'>
+  <input id='artistId' name='artistId' type='hidden' value='@Model.Id'>
+  <label for='cdDescription'>Item description</label>
+  <input id='cdDescription' name='cdDescription' type='text'>
+  <button type='submit'>Add artist</button>
+</form>
